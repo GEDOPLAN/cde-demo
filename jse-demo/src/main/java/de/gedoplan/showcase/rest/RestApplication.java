@@ -1,6 +1,5 @@
 package de.gedoplan.showcase.rest;
 
-import de.gedoplan.showcase.base.rest.HelloResource;
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
 

@@ -1,4 +1,4 @@
-package de.gedoplan.showcase.base.rest;
+package de.gedoplan.showcase.rest;
 
 import de.gedoplan.showcase.service.GreetingService;
 import jakarta.inject.Inject;
