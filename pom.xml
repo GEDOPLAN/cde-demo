@@ -14,7 +14,11 @@
 	<artifactId>cde-demo</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>jse-demo</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,15 +26,6 @@
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter</artifactId>
-			<version>5.9.3</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
 
 	<repositories>
 		<!-- GEDOPLAN-Nexus-Repository -->
