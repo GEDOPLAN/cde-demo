@@ -1,1 +1,8 @@
+### Mit Quarkus oder Bootable-Jar
+GET http://localhost:8080/rest/hello
+
+### Lokal gestartet
 GET http://localhost:8081/rest/hello
+
+### Im Docker-Container
+GET http://localhost:8082/rest/hello

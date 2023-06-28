@@ -17,7 +17,9 @@
 	<packaging>pom</packaging>
 
 	<modules>
+		<module>cde-base</module>
 		<module>jse-demo</module>
+		<module>jee-demo</module>
 	</modules>
 
 	<properties>
@@ -26,6 +28,16 @@
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
+
+	<dependencies>
+		<!-- JEE-Standard -->
+		<dependency>
+			<groupId>jakarta.platform</groupId>
+			<artifactId>jakarta.jakartaee-api</artifactId>
+			<version>10.0.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 
 	<repositories>
 		<!-- GEDOPLAN-Nexus-Repository -->
