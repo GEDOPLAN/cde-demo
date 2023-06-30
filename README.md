@@ -1,4 +1,4 @@
-# Container Development Environment Demo
+# Cloud Development Environment Demo
 
 Diese Demo kann zur Nutzung in CDEs verwendet werden. Sie enthält eine Konfiguration für Gitpod auf Basis von einem JDK 17.
 
